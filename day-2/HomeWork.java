@@ -48,9 +48,10 @@ public class HomeWork {
                 default: System.out.println("Invalid choice!");
             }
 
-            // Display result of the selected operation
+            // Display result of the selected operation and reset
             System.out.print("\nResult: ");
             System.out.println(result);
+            result = 0;
 
             // Ask user if they want to continue
             System.out.print("Do you wish to continue? [yes/no] ");
