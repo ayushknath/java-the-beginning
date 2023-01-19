@@ -45,7 +45,9 @@ public class HomeWork {
                 case 4:
                     result = num1 / num2;
                     break;
-                default: System.out.println("Invalid choice!");
+                default: 
+                    System.out.println("Invalid choice!");
+                    break;
             }
 
             // Display result of the selected operation and reset
