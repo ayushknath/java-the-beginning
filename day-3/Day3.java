@@ -60,12 +60,27 @@ public class Day3 {
 
 
         // *** Pattern problem 3 - Half pyramid ****
-        System.out.print("Enter a row value: ");
+        // System.out.print("Enter a row value: ");
+        // int n = sc.nextInt();
+        // System.out.print("Enter a column value: ");
+        // int m = sc.nextInt();
+
+        // for(int i = 1; i <= n; i++) {
+        //     for(int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // *** Pattern problem 4 - Right sided half pyramid ***
+        // Ayush Kumar Nath
+        System.out.print("Enter n: ");
         int n = sc.nextInt();
-        System.out.print("Enter a column value: ");
-        int m = sc.nextInt();
 
         for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
             for(int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
